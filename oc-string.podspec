@@ -25,6 +25,8 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+  二次封装yykit的常用字符串操作，提供nssary的一些便捷操作，包括map，filter等。
+
                    DESC
 
   s.homepage     = "https://github.com/zsy78191/oc-string"
