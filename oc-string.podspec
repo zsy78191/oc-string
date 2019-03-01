@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "oc-string"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "二次封装yykit的常用字符串操作，提供nssary的一些便捷操作"
 
   # This description is used to generate tags and improve search results.
