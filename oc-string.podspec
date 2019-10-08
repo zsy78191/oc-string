@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "oc-string"
-  s.version      = "0.0.3"
+  s.version      = "0.0.5"
   s.summary      = "二次封装yykit的常用字符串操作，提供nssary的一些便捷操作"
 
   # This description is used to generate tags and improve search results.
@@ -69,7 +69,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "10.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+  # s.ios.deployment_target = "10.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -135,5 +135,5 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency 'RegexKitLite', '~> 4.0'
-  s.dependency 'YYKit', '~> 1.0.9'
+  # s.dependency 'YYKit', '~> 1.0.9'
 end

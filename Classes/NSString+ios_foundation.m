@@ -7,8 +7,9 @@
 //
 
 #import "NSString+ios_foundation.h"
-@import YYKit;
+//@import YYKit;
 @import RegexKitLite;
+#import "NSString+YYAdd.h"
 
 @implementation NSString (ios_foundation)
 

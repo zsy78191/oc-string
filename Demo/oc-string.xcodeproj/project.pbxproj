@@ -3,15 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		99F39CCC4867D48DDAE97866 /* Pods_oc_stringTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8397A7D17A02B71C668635AB /* Pods_oc_stringTests.framework */; };
 		CD74CF4AA281290327DF1BA8 /* Pods_oc_string.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCD0689CB0D90D5824E1699 /* Pods_oc_string.framework */; };
-		D46DFA6421C2459900675B86 /* NSString+oc_string.m in Sources */ = {isa = PBXBuildFile; fileRef = D46DFA6321C2459900675B86 /* NSString+oc_string.m */; };
-		D46DFA6721C24EFE00675B86 /* NSString+ios_foundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D46DFA6521C24EFE00675B86 /* NSString+ios_foundation.m */; };
-		D46DFA6A21C24F1100675B86 /* NSArray+ios_foundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D46DFA6821C24F1100675B86 /* NSArray+ios_foundation.m */; };
+		D467C0D2234C870B00FB03AB /* NSString+ios_foundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D467C0CD234C870B00FB03AB /* NSString+ios_foundation.m */; };
+		D467C0D3234C870B00FB03AB /* NSString+oc_string.m in Sources */ = {isa = PBXBuildFile; fileRef = D467C0CE234C870B00FB03AB /* NSString+oc_string.m */; };
+		D467C0D4234C870B00FB03AB /* NSString+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D467C0CF234C870B00FB03AB /* NSString+YYAdd.m */; };
+		D467C0D5234C870B00FB03AB /* NSArray+ios_foundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D467C0D0234C870B00FB03AB /* NSArray+ios_foundation.m */; };
+		D467C0D8234C880E00FB03AB /* NSData+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D467C0D7234C880E00FB03AB /* NSData+YYAdd.m */; };
 		D4B6D03E21C243DC008FE7DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B6D03D21C243DC008FE7DD /* AppDelegate.m */; };
 		D4B6D04121C243DC008FE7DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B6D04021C243DC008FE7DD /* ViewController.m */; };
 		D4B6D04421C243DC008FE7DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B6D04221C243DC008FE7DD /* Main.storyboard */; };
@@ -36,12 +38,17 @@
 		2DCD0689CB0D90D5824E1699 /* Pods_oc_string.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oc_string.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8397A7D17A02B71C668635AB /* Pods_oc_stringTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oc_stringTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B76D032D09148D63D656088A /* Pods-oc-stringTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oc-stringTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oc-stringTests/Pods-oc-stringTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D46DFA6221C2459900675B86 /* NSString+oc_string.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+oc_string.h"; sourceTree = "<group>"; };
-		D46DFA6321C2459900675B86 /* NSString+oc_string.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+oc_string.m"; sourceTree = "<group>"; };
-		D46DFA6521C24EFE00675B86 /* NSString+ios_foundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ios_foundation.m"; sourceTree = "<group>"; };
-		D46DFA6621C24EFE00675B86 /* NSString+ios_foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ios_foundation.h"; sourceTree = "<group>"; };
-		D46DFA6821C24F1100675B86 /* NSArray+ios_foundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ios_foundation.m"; sourceTree = "<group>"; };
-		D46DFA6921C24F1100675B86 /* NSArray+ios_foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ios_foundation.h"; sourceTree = "<group>"; };
+		D467C0CA234C870B00FB03AB /* NSString+oc_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+oc_string.h"; sourceTree = "<group>"; };
+		D467C0CB234C870B00FB03AB /* NSArray+ios_foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ios_foundation.h"; sourceTree = "<group>"; };
+		D467C0CC234C870B00FB03AB /* NSString+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YYAdd.h"; sourceTree = "<group>"; };
+		D467C0CD234C870B00FB03AB /* NSString+ios_foundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ios_foundation.m"; sourceTree = "<group>"; };
+		D467C0CE234C870B00FB03AB /* NSString+oc_string.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+oc_string.m"; sourceTree = "<group>"; };
+		D467C0CF234C870B00FB03AB /* NSString+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YYAdd.m"; sourceTree = "<group>"; };
+		D467C0D0234C870B00FB03AB /* NSArray+ios_foundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ios_foundation.m"; sourceTree = "<group>"; };
+		D467C0D1234C870B00FB03AB /* NSString+ios_foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ios_foundation.h"; sourceTree = "<group>"; };
+		D467C0D6234C880E00FB03AB /* NSData+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+YYAdd.h"; sourceTree = "<group>"; };
+		D467C0D7234C880E00FB03AB /* NSData+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+YYAdd.m"; sourceTree = "<group>"; };
+		D467C0D9234C882900FB03AB /* YYKitMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYKitMacro.h; sourceTree = "<group>"; };
 		D4B6D03921C243DC008FE7DD /* oc-string.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "oc-string.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B6D03C21C243DC008FE7DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D4B6D03D21C243DC008FE7DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -88,23 +95,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D46DFA6121C2456400675B86 /* Classes */ = {
+		D467C0C9234C870B00FB03AB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D46DFA6921C24F1100675B86 /* NSArray+ios_foundation.h */,
-				D46DFA6821C24F1100675B86 /* NSArray+ios_foundation.m */,
-				D46DFA6621C24EFE00675B86 /* NSString+ios_foundation.h */,
-				D46DFA6521C24EFE00675B86 /* NSString+ios_foundation.m */,
-				D46DFA6221C2459900675B86 /* NSString+oc_string.h */,
-				D46DFA6321C2459900675B86 /* NSString+oc_string.m */,
+				D467C0D9234C882900FB03AB /* YYKitMacro.h */,
+				D467C0D6234C880E00FB03AB /* NSData+YYAdd.h */,
+				D467C0D7234C880E00FB03AB /* NSData+YYAdd.m */,
+				D467C0CB234C870B00FB03AB /* NSArray+ios_foundation.h */,
+				D467C0D0234C870B00FB03AB /* NSArray+ios_foundation.m */,
+				D467C0D1234C870B00FB03AB /* NSString+ios_foundation.h */,
+				D467C0CD234C870B00FB03AB /* NSString+ios_foundation.m */,
+				D467C0CA234C870B00FB03AB /* NSString+oc_string.h */,
+				D467C0CE234C870B00FB03AB /* NSString+oc_string.m */,
+				D467C0CC234C870B00FB03AB /* NSString+YYAdd.h */,
+				D467C0CF234C870B00FB03AB /* NSString+YYAdd.m */,
 			);
-			path = Classes;
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 		D4B6D03021C243DC008FE7DD = {
 			isa = PBXGroup;
 			children = (
-				D46DFA6121C2456400675B86 /* Classes */,
+				D467C0C9234C870B00FB03AB /* Classes */,
 				D4B6D03B21C243DC008FE7DD /* oc-string */,
 				D4B6D05421C243DE008FE7DD /* oc-stringTests */,
 				D4B6D03A21C243DC008FE7DD /* Products */,
@@ -262,19 +275,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-oc-string/Pods-oc-string-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RegexKitLite/RegexKitLite.framework",
-				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-oc-string/Pods-oc-string-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RegexKitLite.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-oc-string/Pods-oc-string-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oc-string/Pods-oc-string-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-oc-string/Pods-oc-string-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9C0232D042ED97FDB0BF558E /* [CP] Check Pods Manifest.lock */ = {
@@ -320,12 +330,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D467C0D5234C870B00FB03AB /* NSArray+ios_foundation.m in Sources */,
+				D467C0D2234C870B00FB03AB /* NSString+ios_foundation.m in Sources */,
+				D467C0D8234C880E00FB03AB /* NSData+YYAdd.m in Sources */,
 				D4B6D04121C243DC008FE7DD /* ViewController.m in Sources */,
 				D4B6D04C21C243DE008FE7DD /* main.m in Sources */,
-				D46DFA6421C2459900675B86 /* NSString+oc_string.m in Sources */,
-				D46DFA6A21C24F1100675B86 /* NSArray+ios_foundation.m in Sources */,
 				D4B6D03E21C243DC008FE7DD /* AppDelegate.m in Sources */,
-				D46DFA6721C24EFE00675B86 /* NSString+ios_foundation.m in Sources */,
+				D467C0D3234C870B00FB03AB /* NSString+oc_string.m in Sources */,
+				D467C0D4234C870B00FB03AB /* NSString+YYAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

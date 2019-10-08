@@ -8,7 +8,9 @@
 
 #import "NSString+oc_string.h"
 @import RegexKitLite;
-@import YYKit;
+//@import YYKit;
+#import "NSString+YYAdd.h"
+
 
 @implementation NSString (oc_string)
 

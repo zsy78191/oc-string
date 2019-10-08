@@ -1,22 +1,16 @@
 PODS:
   - RegexKitLite (4.0)
-  - YYKit (1.0.9):
-    - YYKit/no-arc (= 1.0.9)
-  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - RegexKitLite (~> 4.0)
-  - YYKit (~> 1.0.9)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - RegexKitLite
-    - YYKit
 
 SPEC CHECKSUMS:
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
-  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: d9ee75e5f90d5f3f385da7aad65e91cdb3b9f254
+PODFILE CHECKSUM: 98c68e6314820d5c02ce4174c41956ec1a14cd40
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.5
