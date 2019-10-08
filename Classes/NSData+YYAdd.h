@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Provide hash, encrypt, encode and some common method for `NSData`.
  */
-@interface NSData (YYAdd)
+@interface NSData (YYAdd_OC)
 
 #pragma mark - Hash
 ///=============================================================================

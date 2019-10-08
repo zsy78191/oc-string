@@ -14,10 +14,10 @@
 #include <CommonCrypto/CommonCrypto.h>
 #include <zlib.h>
 
-YYSYNTH_DUMMY_CLASS(NSData_YYAdd)
+YYSYNTH_DUMMY_CLASS(NSData_YYAdd_OC)
 
 
-@implementation NSData (YYAdd)
+@implementation NSData (YYAdd_OC)
 
 - (NSString *)md2String {
     unsigned char result[CC_MD2_DIGEST_LENGTH];

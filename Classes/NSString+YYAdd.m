@@ -14,7 +14,7 @@
  
 #import "YYKitMacro.h"
 
-YYSYNTH_DUMMY_CLASS(NSString_YYAdd)
+YYSYNTH_DUMMY_CLASS(NSString_YYAdd_OC)
 
 
 @implementation NSString (YYAdd)
